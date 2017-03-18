@@ -4,11 +4,11 @@
 $ ->
     $('#pins-container').imagesLoaded ->
         $('#pins-container').masonry
-            itemSelector: '.box'
+            itemSelector: '.box',
             isFitWidth: true
 
 #  $('#pins-container').masonry({
 #    itemSelector: '.box',
 #    columnWidth: 100,
 #    gutterWidth: 40
-#  });
+#  }); 
