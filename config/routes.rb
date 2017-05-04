@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :pins
-  devise_for :users
+  devise_for :users, skip: [:registration]
   root 'pins#index'
   get 'home/about'
   
